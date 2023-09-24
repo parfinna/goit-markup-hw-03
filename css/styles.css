@@ -27,7 +27,7 @@ body {
  }
 
 .head-nav {
-    border-bottom: 1px solid #ffffff; 
+    border-bottom: 1px solid #e7e9fc; 
  }
 
 .flex-nav {
@@ -83,6 +83,8 @@ body {
     letter-spacing: 0.54px;
     text-transform: uppercase;
     line-height: 1.17;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 
 .studio-logo {
@@ -98,6 +100,7 @@ body {
 .flex-list {
     display: flex;
     gap: 40px;
+    padding: 24px 0;
 }
 
 .adress-link {
@@ -146,6 +149,9 @@ body {
     cursor: pointer;
     border-radius: 4px;
     padding: 16px 32px;
+    min-width: 169px;
+    height: 56px;
+    border: none;
 
 }
 
@@ -160,7 +166,7 @@ body {
 .section-type {
     background-color: #2E2F42;
     display: flex;
-    padding: 188px 472px 292px;
+    padding: 188px 0;
 
 }
 
@@ -171,6 +177,7 @@ body {
     line-height: 24px;
     letter-spacing: 0.4px;
     color: #2E2F42;
+    margin-bottom: 8px;
 }
 
 .text-type {
@@ -185,8 +192,12 @@ body {
 .section-kind {
     background-color: #ffffff;
     display: flex;
-    padding: 209px 120px 103px 120px ;
+    padding: 120px 0;
 
+}
+
+.new-style {
+    width: calc((100% - 72px) / 4);
 }
 
 .first-list {
@@ -197,7 +208,8 @@ body {
 .section-team {
     background-color: #F4F4FD;
     display: flex;
-    padding: 232px 156px 120px 156px;
+    padding: 120px 0;
+
 }
 
 .second-list {
@@ -208,7 +220,8 @@ body {
 }
 
 .list-name {
-    padding: 0px 0px 32px 0px;
+    padding: 32px 0px;
+
 
 }
 
@@ -219,6 +232,7 @@ body {
     justify-content: center;
     align-items: center;
     gap: 32px;
+    border-radius: 0px 0px 4px 4px;
 }
 
 
@@ -233,6 +247,7 @@ body {
     color: #2E2F42;
     line-height: 1.11;
     text-align: center;
+    margin-bottom: 72px;
 }
 
 .title-name {
@@ -243,6 +258,8 @@ body {
     letter-spacing: 0.4px;
     color: #2E2F42;
     background-color: #ffffff;
+    text-align: center;
+    margin-bottom: 8px;
 }
 
 .text-kind {
@@ -253,10 +270,12 @@ body {
     letter-spacing: 0.32px;
     color: #434455;
     background-color: #ffffff;
+    text-align: center;
 }
 
 .section-portfolio {
     background-color: #ffffff;
+    padding-top: 120px 0 120px 0;
 }
 
 .third-list {
@@ -266,7 +285,19 @@ body {
     align-content: flex-start;
     gap: 24px;
     padding: 120px 0;
+    row-gap: 48px;
 }
+
+.right-list {
+    width: calc((100% - 48px) / 3);
+}
+
+.next-list {
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+}
+
 
 .text-fin {
     line-height: 1.5;
@@ -277,6 +308,7 @@ body {
 
 .section-fin {
     background-color: #2e2f42;
+    padding: 100px 0;
 }
 
 .studio-logo-fin {
@@ -323,7 +355,8 @@ body {
     padding-right: 0px;
     margin: 0 auto;
     flex-direction: column;
-    
+    padding: 0 15px;
+
    }
 
 .visually-hidden {
