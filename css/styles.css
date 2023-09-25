@@ -30,6 +30,7 @@ body {
     border-bottom: 1px solid #e7e9fc; 
  }
 
+
 .flex-nav {
     display: flex;
     align-items: center;
@@ -72,7 +73,8 @@ body {
     text-transform: uppercase;
     line-height: 1.17;
     margin-right: 76px;
-    padding: 24px 0;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
  
 
@@ -198,6 +200,18 @@ body {
     gap: 24px;
 }
 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    white-space: nowrap;
+}
+
 .section-team {
     background-color: #F4F4FD;
     display: flex;
@@ -306,14 +320,14 @@ body {
 
 .web-logo-fin {
     display: inline-block;
-    color: #4d5ae5;
     font-family: "Raleway", sans-serif;
+    text-transform: uppercase;
     font-size: 18px;
     font-weight: 700;
-    line-height: 21px;
     letter-spacing: 0.54px;
-    text-transform: uppercase;
+    text-decoration: none;
     line-height: 1.17;
+    color: #4d5ae5;
     margin-bottom: 16px;
 }
 
@@ -367,16 +381,6 @@ body {
    }
 
 
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    padding: 0;
-    border: 0;
-    overflow: hidden;
-    clip: rect(0 0 0 0);
-    white-space: nowrap;
-}
+
 
   
