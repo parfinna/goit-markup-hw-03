@@ -26,17 +26,6 @@ body {
     text-decoration: none;
  }
 
- .container-head {
-    display: flex;
-     justify-content: space-between;
-     max-width: 1158px;
-     padding-left: 0px;
-     padding-right: 0px;
-     margin: 0 auto;
-     flex-direction: column;
-     padding: 0 15px;
-
- }
 
 .head-nav {
     border-bottom: 1px solid #e7e9fc; 
@@ -345,7 +334,6 @@ body {
     line-height: 1.17;
     color: #4d5ae5;
     margin-bottom: 16px;
-    padding-top: 1,5px;
     width: 71px;
 }
 
@@ -382,16 +370,17 @@ body {
    }
 
 .container {
-    justify-content: space-between;
     max-width: 1158px;
-    padding-left: 0px;
-    padding-right: 0px;
     margin: 0 auto;
-    flex-direction: column;
     padding: 0 15px;
 
    }
 
+.div-content {
+       display: flex;
+       justify-content: space-between;
+      
+    }
 
 
 
