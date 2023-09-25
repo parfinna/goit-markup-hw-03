@@ -75,18 +75,7 @@ body {
     padding: 24px 0;
 }
  
-.web-logo-footer {
-    color: #4d5ae5;
-    font-family: "Raleway", sans-serif;
-    font-size: 18px;
-    font-weight: 700;
-    line-height: 21px;
-    letter-spacing: 0.54px;
-    text-transform: uppercase;
-    line-height: 1.17;
-    display: inline-block;
-    margin-bottom: 16px;
-}
+
 
 .studio-logo {
     color: #2e2f42;
@@ -116,6 +105,7 @@ body {
     line-height: 24px;
     letter-spacing: 0.32px;
     font-style: normal;
+    padding: 24px 0;
 }
 
 .adress-link.active {
@@ -314,6 +304,19 @@ body {
     padding: 100px 0;
 }
 
+.web-logo-fin {
+    display: inline-block;
+    color: #4d5ae5;
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    letter-spacing: 0.54px;
+    text-transform: uppercase;
+    line-height: 1.17;
+    margin-bottom: 16px;
+}
+
 .studio-logo-fin {
     color: #f4f4fd;
     font-family: "Raleway", sans-serif;
@@ -322,7 +325,7 @@ body {
     line-height: 21px;
     letter-spacing: 0.54px;
     text-transform: uppercase;
-    display: inline-block;
+   
  }
 
 
@@ -363,9 +366,17 @@ body {
 
    }
 
+
 .visually-hidden {
-    position: fixed;
-    transform: scale(0);
-   }
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    border: 0;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    white-space: nowrap;
+}
 
   
